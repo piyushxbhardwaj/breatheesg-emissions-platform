@@ -1,6 +1,26 @@
 # BreatheESG Emissions Ingestion & Review Platform
 
+[![Frontend Vercel Status](https://img.shields.io/badge/Frontend-Vercel-brightgreen?style=flat-square)](https://breatheesg-emissions-platform.vercel.app)
+[![Backend Render Status](https://img.shields.io/badge/Backend-Render-blue?style=flat-square)](https://breatheesg-emissions-platform.onrender.com)
+
 This is a production-minded prototype for an enterprise ESG emissions data ingestion and analyst review system. It handles multi-tenant data parsing, validation, carbon footprint normalization, and audit review workflows for three core data sources:
+
+---
+
+## 🚀 Live Deployment
+
+* **Frontend Dashboard (Vercel)**: [https://breatheesg-emissions-platform.vercel.app](https://breatheesg-emissions-platform.vercel.app)
+* **Backend REST API (Render)**: [https://breatheesg-emissions-platform.onrender.com/api/](https://breatheesg-emissions-platform.onrender.com/api/)
+* **Django Admin Service**: [https://breatheesg-emissions-platform.onrender.com/admin/](https://breatheesg-emissions-platform.onrender.com/admin/)
+
+### Quick Access Link Summary
+* **GitHub Codebase**: [https://github.com/piyushxbhardwaj/breatheesg-emissions-platform](https://github.com/piyushxbhardwaj/breatheesg-emissions-platform)
+* **Live UI Client**: [https://breatheesg-emissions-platform.vercel.app](https://breatheesg-emissions-platform.vercel.app)
+* **Live API Root**: [https://breatheesg-emissions-platform.onrender.com](https://breatheesg-emissions-platform.onrender.com)
+
+---
+
+This platform handles three core data sources:
 1. **SAP Fuel & Procurement**: Handles German/English headings, mixed dates, and fuel volumes.
 2. **Utility Electricity Invoices**: Splices non-calendar billing cycles across calendar months.
 3. **Corporate Travel Booking Logs**: Computes travel distances (Haversine formula via IATA coordinates), hotel room-nights, and spend-based ground transport.
