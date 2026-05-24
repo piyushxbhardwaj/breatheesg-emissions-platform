@@ -1,0 +1,6 @@
+Materialnummer,Menge,Einheit,Werk,Buchungsdatum
+Mat-Diesel-5001,4500,Liters,Plant-Hamburg,2023-04-12
+Mat-Gas-5002,1200,m3,Plant-Munich,15.05.2023
+Mat-Diesel-5001,800,Gallons,Plant-Berlin,2023-06-20
+Mat-Gas-5002,15,GJ,Plant-Stuttgart,12-07-2023
+Mat-Invalid-999,-50,Liters,Plant-Error,2023-08-01

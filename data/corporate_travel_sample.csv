@@ -1,0 +1,7 @@
+Employee ID,Travel Date,Category,Origin,Destination,Distance_Miles,Hotel_Nights,Spend
+EMP-8839,2023-05-12,Flight,JFK,LHR,,0,1200.00
+EMP-4421,2023-05-14,Hotel,,,0,4,650.00
+EMP-8839,2023-05-18,Flight,LHR,CDG,210,0,320.00
+EMP-1192,2023-06-02,Ground,,,0,0,150.00
+EMP-4421,2023-06-05,Flight,SFO,SIN,8440,0,2400.00
+EMP-Invalid,2023-06-10,Flight,XYZ,ABC,,0,800.00
