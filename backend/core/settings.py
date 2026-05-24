@@ -139,7 +139,17 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS Configurations
-CORS_ALLOW_ALL_ORIGINS = True  # Allowed for development prototype
+CORS_ALLOWED_ORIGINS = [
+    "https://breatheesg-emissions-platform.vercel.app",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+
+from corsheaders.defaults import default_headers
+
+CORS_ALLOW_HEADERS = list(default_headers) + [
+    "x-tenant-id",
+]
 
 # DRF Configurations
 REST_FRAMEWORK = {
